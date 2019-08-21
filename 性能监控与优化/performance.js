@@ -1,5 +1,5 @@
 // 获取通过performance API计算得到的典型性能指标
-const calcTime = () => {
+const calcTimes = () => {
   let times = {}
   let t = window.performance.timing
 
