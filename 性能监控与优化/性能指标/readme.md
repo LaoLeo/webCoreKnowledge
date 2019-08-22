@@ -26,10 +26,10 @@
 利用performance API timing对象的属性，根据文档加载的时序图两辆相差来获取相应的时间段。
 ![performance timing](https://images.gitbook.cn/ba109250-b8f4-11e9-953b-67880772eeef)
 
-参考：[calcTimes](https://github.com/LaoLeo/webCoreKnowledge/blob/master/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7%E4%B8%8E%E4%BC%98%E5%8C%96/performance.js)
+参考：[calcTimes](https://github.com/LaoLeo/webCoreKnowledge/blob/master/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7%E4%B8%8E%E4%BC%98%E5%8C%96/%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87/performance.js)
 
 ## 计算首屏时间
 * 手动埋点：在接近首屏底部的元素位置手动埋点统计，入侵性强且不好维护。
-* [集中化脚本统计方法](https://github.com/LaoLeo/webCoreKnowledge/blob/master/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7%E4%B8%8E%E4%BC%98%E5%8C%96/firstScreenTime.js)（统计首屏内耗费资源标签（如img）的加载情况，当作首屏时间）
+* [集中化脚本统计方法](https://github.com/LaoLeo/webCoreKnowledge/blob/master/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7%E4%B8%8E%E4%BC%98%E5%8C%96/%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87/firstScreenTime.js)（统计首屏内耗费资源标签（如img）的加载情况，当作首屏时间）
     - 利用定时器检测
     - 在耗费资源标签上绑定回调函数
