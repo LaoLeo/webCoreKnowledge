@@ -1,16 +1,16 @@
 {
-  "name": "package-3",
-  "version": "0.0.1",
+  "name": "monorepo",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "lodash": "4.17.15",
-    "clipboard": "^2.0.1"
+  "private": true,
+  "workspaces": ["packages/*"],
+  "devDependencies": {
+    "lerna": "^3.16.4"
   }
 }
