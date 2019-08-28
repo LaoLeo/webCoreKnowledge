@@ -14,7 +14,7 @@
     }
   },
   "lint-staged": {
-    "*.(js|jsx)": ["yarn lint:write", "yarn prettier", "git add"]
+    "*.(js|jsx)": ["npm run lint:write", "npm run prettier", "git add"]
   },
   "devDependencies": {
     "eslint": "^6.2.2",
