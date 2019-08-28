@@ -19,7 +19,6 @@ module.exports = {
     'vue'
   ],
   rules: {
-    'semi': ['error', 'always'],
-    'quote': ['error', 'double']
+    'semi': ['error', 'always']
   }
 }
