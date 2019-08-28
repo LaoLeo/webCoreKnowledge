@@ -1,0 +1,23 @@
+/**
+*  注意：husky可能识别不了中文路径，所以导致commit后无法找到changed files
+*/
+
+{
+  "name": "prettier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "prettier": "prettier --write src/*"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "devDependencies": {
+    "husky": "^3.0.4",
+    "prettier": "1.18.2",
+    "pretty-quick": "^1.11.1"
+  }
+}
