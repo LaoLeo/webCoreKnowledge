@@ -10,5 +10,10 @@ function trainJedi(jediWarrion) {
   console.log(`Training ${jediWarrion.name} complete`);
 }
 
-trainJedi(person);
+trainJedi
+
+
+
+
+(person);
 trainJedi({ name: 'Adeel', designation: 'padawan' });
