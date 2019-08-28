@@ -1,6 +1,6 @@
 const person = {
   name: 'Yoda',
-             designation: 'Jedi Master '
+           designation: 'Jedi Master '
 };
 
              function trainJedi (jediWarrion) {
@@ -10,5 +10,5 @@ const person = {
   console.log(`Training ${jediWarrion.name} complete`);
 }
 
-                trainJedi(person);
+            trainJedi(person);
 trainJedi({ name: "Adeel", designation: 'padawan' });

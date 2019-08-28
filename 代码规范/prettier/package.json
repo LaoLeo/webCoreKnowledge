@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint --debug src/",
-    "lint:write": "eslint --debug src/ --fix",
+    "lint": "eslint --debug src/*",
+    "lint:write": "eslint --debug src/* --fix",
     "prettier": "prettier --write src/*"
   },
   "husky": {
@@ -14,7 +14,7 @@
     }
   },
   "lint-staged": {
-    "*.(js|jsx)": ["npm run lint:write", "npm run prettier", "git add"]
+    "*.(js|jsx|vue)": ["npm run lint:write", "npm run prettier", "git add"]
   },
   "devDependencies": {
     "eslint": "^6.2.2",
